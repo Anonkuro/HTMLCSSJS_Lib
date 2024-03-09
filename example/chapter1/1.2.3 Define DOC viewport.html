@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<titl>定义文档视口</titl>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<h1>width=device-width, initial-scale=1</h1>
+	<p>width=device-width 将 layout viewport（布局视口）的宽度设置 ideal viewport（理想视口）的宽度。</p>
+	<p>initial-scale=1 表示将 layout viewport（布局视口）的宽度设置为 ideal viewport（理想视口）的宽度。</p>
+</body>
+
+</html>
+
+<!-- 1.2.3 Define DOC viewport.html
+
+- viewport（视口），即浏览器显示页面内容的屏幕区域
+- 一般移动设备浏览器默认设置 <meta name="viewport"> 标签，定义一个虚拟的布局视口
+- iOS、Android基本都将这个视口分辨率设置为 980px
+- 
+
+属性							取值					     说明
+width				正整数 or device-width			定义视口高度，单位px
+height				正整数 or device-hight			定义视口宽度，单位px
+initial-scale		[0.0 - 10.0]				  定义初始缩放值
+minimun-scale		[0.0 - 10.0]				  定义缩小最小比例，<= maximum-scale
+maximum-scale		[0.0 - 10.0]				  定义放大最大比例，>= maximum-scale
+user-scalable		yes / no					  定义是否允许用户手动缩放页面，默认值为yes
+
+-->
