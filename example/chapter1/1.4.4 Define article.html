@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>定义文章块</title>
+</head>
+
+<body>
+	
+	<header role="banner">
+		<nav role="navigation">[包含多个链接的ul]</nav>
+	</header>
+	
+	
+	<main role="main">
+		<article>
+			<h1 id="news">区块链"时代号"列车驶来</h1>
+			<p>对于精英们来说，这个春节有点特殊。</p>
+			<p>他们身在曹营心在汉，他们被区块链搅动得燥热难耐，在兴奋、焦虑、恐慌、质疑中度过一个漫长春节。</p>
+			<h2 id="sub1">1. 三点钟无眠</h2>
+			<p><img src="images/0001.jpg" width="200" />春节期间，一个大佬云集的区块链群建立，因为有......</p>
+			<h2 id="sub2">2. 被碾压的春节</h2>
+			<p>...</p>
+		</article>
+	</main>
+	
+	<br>
+	
+	<article>
+		<h1 id="news">区块链“时代号”列车...</h1>
+		<p>...</p>
+		
+		<!-- 文章的页脚，并非页面级的页脚 -->
+		<footer>
+			<p>出处说明</p>
+			<address>
+				访问网址<a href="https://www.huxiu.com/article/233471.html">虎嗅</a>
+			</address>
+		</footer>
+	</article>
+	
+	<article>
+		<h1 id="news">标题</h1>
+		<p>...</p>
+		<section>
+			<h2>读者评论</h2>
+			<article>
+				<footer>发布时间
+					<time datetime="2018-02-20">2018-2-20</time>
+				</footer>
+				<p>评论内容</p>
+			</article>
+			<article>[下一则评论]</article>
+		</section>
+	</article>
+	
+</body>
+</html>
+
+<!-- 1.4.4 Define article.html
+
+- article		表示文章块，一个<article> 可以包含多个<section> 和子<article> 元素
+- time			标记定义特定时间（或日期时间）, 该元素的 datetime 属性用于将时间转换为机器可读的格式
+
+-->
